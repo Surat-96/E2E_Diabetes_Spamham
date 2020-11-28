@@ -7,7 +7,7 @@ import MySQLdb.cursors
 import re
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='static', template_folder='templates')
 
 #diabetes model read
 filename = open('Diabetes/diabetespredictmodel.pkl', 'rb')
