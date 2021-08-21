@@ -1,2 +1,4 @@
 # E2E_Diabetes_Spamham
-It is a End 2 End ML PROJECT with DIABETES &amp; SPAMHAM PREDICTIONS
+It is an End 2 End ML Project with Machine
+Learning Algorithm (Random Forest, Naïve Bayes), Flask by Self Implement within 1 month.
+
