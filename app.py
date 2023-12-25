@@ -7,10 +7,10 @@ import MySQLdb.cursors
 import re
 
 
-app = Flask(__name__, static_folder='static', template_folder='templates')
+app = Flask(__name__)
 
 #diabetes model read
-filename = open('Diabetes/diabetespredictmodel.pkl', 'rb')
+filename = open('Diabetes/dpmod.pkl', 'rb')
 model = pickle.load(filename)
 filename.close()
 
